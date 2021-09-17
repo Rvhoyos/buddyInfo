@@ -7,7 +7,7 @@ public class AddressBook {
 
     public AddressBook(){
 
-        this.addressBook = new ArrayList();
+        addressBook = new ArrayList();
     }
 
 
