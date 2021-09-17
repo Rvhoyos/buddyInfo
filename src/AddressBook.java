@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class AddressBook {
 
     BuddyInfo Buddy;
-    ArrayList addressBook = new ArrayList();
+    ArrayList addressBook;
 
 
     public void addBuddy(){
@@ -15,6 +15,11 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
+        BuddyInfo Buddy = new BuddyInfo("Tom","Carleton",613);
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy();
+        addressBook.removeBuddy();
+
         System.out.println("Address Book");
 
     }
