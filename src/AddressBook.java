@@ -20,6 +20,8 @@ public class AddressBook {
             addressBook.remove(index);
         }
     }
+    public static void newTestMethod(){}
+
     public static void main(String[] args) {
         BuddyInfo Buddy = new BuddyInfo("Tom","Carleton",613);
         AddressBook addressBook = new AddressBook();
